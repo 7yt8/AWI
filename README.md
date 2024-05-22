@@ -1,0 +1,2 @@
+# AWI
+Adversaries With Incentives
