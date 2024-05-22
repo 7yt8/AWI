@@ -1,9 +1,6 @@
 
 # Adversaries With Incentives: A Strategic Alternative to Adversarial Robustness
 
-This repository is the official implementation of [Adversaries With Incentives: A Strategic Alternative to Adversarial Robustness](https://arxiv.org/abs/2030.12345). ?????
-
->📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials ???
 
 ## Requirements
 
@@ -13,7 +10,6 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
 
 ## Training
 
