@@ -188,6 +188,7 @@ def train_epoch(f, loader, optimizer, train_strat, attack, gt_strat, args):
                 c = c.item()
                 curr_targets_mat[c] = False
                 rand_target, budget = rand_strat[c]
+                curr_targets_mat[c][rand_target] = True
 
             # extract classes with no targets (clean)
             clean_mask = (curr_targets_mat.sum(1) == 0)
